@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap'); 
+/* this is a RANCHO font for woody */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap'); /* Font for the main bits -Poppins*/
+
+
+body{
+    background-color: #ecdcc9;
+    font-family:"Poppins";
+    margin:1rem;
+    margin-right:0;
+}
+.woody{
+    display: flex;
+}
+.description-woody {
+    background-color:#D99C60;
+    border-radius: 15px;
+    border:solid;
+    border-color: #4E150A;
+   font-family:"rancho";
+    color:#2B0903;
+    margin: 2rem;
+   
+}
+.tierone{
+    background-color:#F1D0AE;
+    border-radius: 15px;
+    border:solid;
+    border-color: #4E150A;
+    margin-top: 1rem;
+    width: 600px;
+    height: 220px;
+  
+}
+.tiertwo{
+    background-color:#F1EAAE;
+    border-radius: 15px;
+    border:solid;
+    border-color: #DF9954;
+    margin-top: 1rem;
+    width: 600px;
+    height: 220px;
+ 
+}
+
+.tierthree{
+    background-color:#4E150A;
+    border-radius: 15px;
+    border:solid;
+    border-color: #4E150A;
+    margin-top: 1rem;
+    width: 600px;
+    height: 220px;
+    color:#F1EAAE;
+
+}
+.tiers{
+    display: flex;
+    justify-content: space-around;
+   flex-direction: column;
+    align-items: stretch;
+    align-content: space-between;
+    margin: 1rem;
+    padding:1rem;
+    
+}
+.apianddescription{
+    background-color:#F1D0AE;
+    border-radius: 45px;
+    border:solid;
+    border-color: #D99C60;
+    color: #4E150A;
+    padding:0.5rem;
+    width: 35vh;
+    height: 35vw;
+
+}
+.updatedTotal{
+    background-color:#d99c60dc;
+    border-radius: 55px;
+    border:solid;
+    border-color: #4E150A;
+    margin: 1rem;
+    color: #4E150A;
+    padding:1rem;
+}
+
+button {
+    background-color:#f1eaaed5;
+    border-radius: 55px;
+    border:solid;
+    border-color: #4E150A;
+    margin: 1rem;
+    color: #4E150A;
+    padding:1rem;
+}
+button:hover{
+    transform: scale(1.2);
+}
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    /* align-self: center; */
+    align-items: stretch;
+    align-content: space-between;
+    margin: 1rem; 
+}
+.wrappertwo{
+    background-color: rgb(235, 187, 128);
+    border-radius: 25px;
+    border:solid;
+    border-color: #4E150A;
+
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+
+    align-content: space-between;
+    margin: 1rem; 
+    margin-top: 3rem; 
+    flex-direction: column;
+    padding:1rem;
+    width: 20vh;
+    height: 20vw;
+
+}
